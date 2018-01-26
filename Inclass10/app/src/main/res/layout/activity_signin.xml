@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rspoo.inclass10.SigninActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextFName"
+        android:layout_above="@+id/editTextSignUpEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextFName"
+        android:layout_alignStart="@+id/editTextFName"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/Name" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/editTextSignUpEmail"
+        android:id="@+id/Passwordvalue" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextChSignUpPass"
+        android:layout_below="@+id/Passwordvalue"
+        android:layout_alignStart="@+id/Passwordvalue"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextSignUpEmail"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/Passwordvalue"
+        android:layout_alignStart="@+id/editTextFName" />
+
+    <Button
+        android:text="@string/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCancel"
+        android:layout_marginBottom="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonSendSignUp" />
+
+    <Button
+        android:text="@string/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSendSignUp"
+        android:layout_above="@+id/buttonCancel"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Emailid"
+        android:layout_below="@+id/Name"
+        android:layout_alignStart="@+id/editTextFName" />
+
+</RelativeLayout>

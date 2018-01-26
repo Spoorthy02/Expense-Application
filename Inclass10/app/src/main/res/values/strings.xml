@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Expense App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tagCurrentExpenses">Current Expenses:</string>
+    <string name="btnAddExpenseTeg">Add Expense</string>
+    <string name="btnCancleTag">Cancel</string>
+    <string name="AddExpenseTag">Add Expense</string>
+    <string name="expenseNametag">Expense Name</string>
+    <string name="CategoryTag">Category</string>
+    <string name="amountTag">Amount</string>
+    <string name="datetag">Date</string>
+    <string name="btnclose">Close</string>
+    <string name="expenseDetailsTag">Expense Details</string>
+    <string name="tagString">There is no expense to show, Please add your expenses from the menu.</string>
+
+    <string name="ShowExpenseTag">Show Expense</string>
+    <string name="ListExpenseTag"> Expenses</string>
+
+    <string name="SignUpTag"> Expense App (Sign Up)</string>
+    <string name="SignInTag"> Expense App (Sign In)</string>
+    <string name="emailHint">Email</string>
+    <string name="passHint">Password</string>
+    <string name="fNHint">First Name</string>
+    <string name="lNHint">Last Name</string>
+    <string name="chPassHint">Choose Password</string>
+    <string name="repPassHint">Repeat Password</string>
+    <string name="typeMsgHint">Type message to send</string>
+    <string name="login">Login</string>
+    <string name="signUp">Sign Up</string>
+    <string name="cancel">Cancel</string>
+</resources>
